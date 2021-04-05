@@ -14,9 +14,6 @@ source("helper.R")
 # Here's one simulated dataset.
 df_test <- gen_cluster(n = 10000, n_cluster = 50, rho = 0.7)
 
-# First, just want to make sure we don't have an OVB problem here.
-cor(df_test$x,df_test$error)
-
 # Here's what 'x' looks like ignoring cluster assignment.
 # Nice and normal, right?
 ggplot(data = df_test, aes(x = y)) +
