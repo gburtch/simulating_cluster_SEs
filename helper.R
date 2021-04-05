@@ -3,20 +3,16 @@
 
 ## Let's load some libraries.
 library('arm')
-library('simstudy')
 library('mvtnorm')
-library('lme4')
 library('multiwayvcov')
-library('clusterSEs') # for clustered SEs and wild bootstrap clustered SEs.
+library('clusterSEs') # for clustered SEs.
 library('ggplot2')
 library('dplyr')
-library('haven')
 library('RColorBrewer')
 library('ggthemes')
 library('fishmethods') # for intra-cluster correlations.
-library('fwildclusterboot')
-library('patchwork')
-library('viridis')
+library('fwildclusterboot') # for wild cluster bootstrapped SEs.
+library('patchwork') # for combining plots.
 
 ### FUNCTION TO SIMULATE A DATA FRAME COMPRISED OF CLUSTERED DATA
 
