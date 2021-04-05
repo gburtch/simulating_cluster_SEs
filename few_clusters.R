@@ -85,8 +85,8 @@ ci95_unclustered <- ggplot(
              color = "chartreuse4") +
   NULL
 
-# Now, How did we do when clustering was present? Fuckin terribly!
-# Let's look at our distribution of estimates from the unclustered simulations. We can take 100 of them.
+# Now, How did we do when clustering was present? Badly!
+# Let's look at our distribution of estimates from the unclustered simulations. 
 ci95_clustered <- ggplot(
   sim_clustered,
   aes(
