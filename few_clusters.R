@@ -9,7 +9,7 @@ set.seed(1234)
 # Load helper functions: one to generate a clustered data set for y~x;
 # One to estimate an lm() and recover estimates with requested SEs; 
 # One to nest nest draws / estimations, to implemented a set of simulations.
-source("~/Desktop/helper.R")
+source("helper.R")
 
 # Here's one simulated dataset.
 df_test <- gen_cluster(n = 10000, n_cluster = 50, rho = 0.7)
